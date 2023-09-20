@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import style from "./about.module.css";
 import Typed from "typed.js";
+import img from "./yatish.jpg"
 const About = () => {
   const [showContainer, setShowContainer] = useState(false);
   const handleMoreclick = () => {
@@ -32,10 +33,12 @@ const About = () => {
   return (
     <div id={style.maindiv}>
       <div id={style.parentdiv}>
-        <div id={style.photodiv}></div>
+        <div id={style.photodiv}>
+          <img src={img} alt="" />
+        </div>
         <div id={style.infodiv}>
           <h1 id={style.myname}>
-            MOHAMMAD <span id={style.lukman}>LUKMAN</span> KHAN
+            Yatish <span id={style.lukman}>Singhal</span> 
           </h1>
           <h1 id={style.creativetext}>
             Creative <span className={`text ${style.text}`}></span>
@@ -43,7 +46,7 @@ const About = () => {
           <hr />
 
           <p id={style.paragraph}>
-            I'm <span id={style.paraname}>Mohammad Lukman Khan</span>, a
+            I'm <span id={style.paraname}>Yatish Singhal</span>, a
             full-stack developer working as a freelancer. I'm passionate and
             dedicated to my work, aiming to craft exceptional digital
             experiences. My goal is to turn ideas into functional and visually
@@ -63,10 +66,12 @@ const About = () => {
                 <i class="fa-solid fa-x"></i>
               </span>
               <div id={style.childa1}>
-                <div id={style.childa1photo}></div>
+                <div id={style.childa1photo}>
+                <img src={img} alt="" />
+                </div>
                 <div id={style.childa1info}>
                   <h1 id={style.myname}>
-                    MOHAMMAD <span className={style.redtxt}>LUKMAN</span> KHAN
+                    Yatish  <span className={style.redtxt}>Singhal</span> 
                   </h1>
                   <h1 id={style.creativetext}>
                     Creative{" "}
@@ -76,12 +81,12 @@ const About = () => {
                   </h1>
                   <ul>
                     <li>
-                      <i class="fa-solid fa-user"></i> Mohammad{" "}
-                      <span id={style.lukman}>Lukman</span> Khan
+                      <i class="fa-solid fa-user"></i> {" "}
+                      <span id={style.lukman}>Yatish</span> Singhal
                     </li>
                     <hr />
                     <li>
-                      <i class="fa-solid fa-calendar-days"></i> 08/03/2002
+                      <i class="fa-solid fa-calendar-days"></i> 04/01/2000
                     </li>
                     <hr />
                     <li>
@@ -91,12 +96,12 @@ const About = () => {
                     <hr />
                     <li>
                       <i class="fa-solid fa-phone"></i>
-                      <a href="">+91 797 964 690</a>
+                      <a href="">+91 9529210219</a>
                     </li>
                     <hr />
                     <li>
                       <i class="fa-solid fa-envelope"></i>
-                      <a href="">khanlukman833@gmail.com</a>
+                      <a href="">yatish0401@gmail.com</a>
                     </li>
                   </ul>
                   <button className={style.textbtn}>Button Text</button>
@@ -108,7 +113,7 @@ const About = () => {
                     <h1 id={style.aboutmetxt} className={style.a1txt} >About <span className={style.redtxt}>Me</span></h1>
                     <hr />
                     <p id={style.paragraph}>
-                      I'm <span id={style.paraname}>Mohammad Lukman Khan</span>,
+                      I'm <span id={style.paraname}>Yatish Singhal </span>,
                       a full-stack developer working as a freelancer. I'm
                       passionate and dedicated to my work, aiming to craft
                       exceptional digital experiences. My goal is to turn ideas
@@ -194,13 +199,7 @@ const About = () => {
                       <li>
                         <i class="fa-solid fa-caret-right"></i> Hindi (Native)
                       </li>
-                      <li>
-                        <i class="fa-solid fa-caret-right"></i> Urdu (Advance)
-                      </li>
-                      <li>
-                        <i class="fa-solid fa-caret-right"></i> Arabic
-                        (Beginner)
-                      </li>
+        
                     </ul>
                   </div>
 
@@ -212,20 +211,30 @@ const About = () => {
                       <div id={style.mydiv}>
                         <div id={style.circle1}></div>
                         <div id={style.circle2}></div>
+                        <div id={style.circle2}></div>
                       </div>
                       <div id={style.yeardiv}>
                         <div class={style.childyear}>
-                          <p class={style.year}>2020 - 2022</p>
+                          <p class={style.year}>2018 - 2022</p>
+                          
                         </div>
                         <div class={style.childyear}>
-                          <p class={style.year}>2019 - 2020</p>
+                          <p class={style.year}>2016 - 2017</p>
+                        </div>
+                        <div class={style.childyear}>
+                          <p class={style.year}>2014 - 2015</p>
                         </div>
                       </div>
                       <div id={style.collegediv}>
-                        <p id={style.university1}>S.G.G. University</p>
-                        <p id={style.diploma1}>Bachelor Of Science</p>
-                        <p id={style.university2}>Dr. C.V. Raman University</p>
-                        <p id={style.diploma2}>Diploma in Computer Sciece</p>
+                        <p id={style.university1}>GEC Ajmer</p>
+                        <p id={style.diploma1}>Bachelor Of Technology(ECE)</p>
+                        <p id={style.diploma2}>(Cgpa-7.5)</p>
+                        <p id={style.university2}>Shiv Jyoti Sr. Sec. Kota</p>
+                        <p id={style.diploma2}>PCM</p>
+                        <p id={style.diploma2}>(76.00)</p>
+                        <p id={style.university2}>Shivam Saravodaya Sr. Sec. Baran</p>
+                        <p id={style.diploma2}>(80.33)</p>
+                       
                       </div>
                     </div>
                   </div>

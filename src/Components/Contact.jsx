@@ -16,13 +16,13 @@ const Contact = () => {
             <i class="fa-solid fa-location-dot"></i>  <p><a href="">Bangalore, Karnataka, India</a></p>
             </div>
             <div className={style.detailsdiv}>
-            <i class="fa-solid fa-phone"></i>   <p><a href="tel:+917974964690" target="_blank">+91 797 496 4690</a></p>
+            <i class="fa-solid fa-phone"></i>   <p><a href="tel:+919529210219" target="_blank">+91 9529-210-219</a></p>
             </div>
             <div className={style.detailsdiv}>
-            <i class="fa-solid fa-envelope"></i>  <p> <a href="mailto:khanlukman833@gmail.com">khanlukman833@gmail.com</a></p>
+            <i class="fa-solid fa-envelope"></i>  <p> <a href="mailto:yatish0401@gmail.com">yatish0401@gmail.com</a></p>
             </div>
             <div className={style.detailsdiv}>
-            <i class="fa-brands fa-linkedin"></i>  <p><a href="https://www.linkedin.com/in/mohammad-lukman-khan-278509259/" target="_blank" >Mohammad Lukman Khan</a></p>
+            <i class="fa-brands fa-linkedin"></i>  <p><a href="www.linkedin.com/in/yatish-singhal-436476199/" target="_blank" >Yatish Singhal</a></p>
             </div>
         </div>
         <div id={style.rightonediv}>

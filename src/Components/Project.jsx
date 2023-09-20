@@ -1,8 +1,8 @@
 
 import style from "./project.module.css"
-import emppng from "../Video/emppng.png"
-import ecom from "../Video/ecommerce.png"
-import moto from "../Video/jspng.png"
+import emppng from "../Video/game.png"
+import ecom from "../Video/Food.png"
+import moto from "../Video/song.png"
 const Project = () => {
   return (
     <div id={style.maindiv}>
@@ -16,25 +16,25 @@ const Project = () => {
         </div>
         <div id={style.loweronediv}>
           <div id={style.projectdiv1} className={style.projectdiv}>
-          <a href="https://github.com/LukmanKhann/Employee-Directory-App"> <img src={emppng} alt="" /></a>
+          <a href="https://yatish0401.github.io/Tic_Tac_Toy/"> <img src={emppng} alt="" /></a>
             <div className={style.infocard}>
 
-              <p>Employee_Directory_App</p>
-              <p><a href="https://github.com/LukmanKhann/Employee-Directory-App"><i class="fa-brands fa-github"></i> GitHub</a></p>
+              <p>Tic_Tac_Toy</p>
+              <p><a href="https://yatish0401.github.io/Tic_Tac_Toy/"><i class="fa-brands fa-github"></i> GitHub</a></p>
             </div>
           </div>
           <div id={style.projectdiv2} className={style.projectdiv}>
-          <a href="https://github.com/LukmanKhann/Dynamic-moto-showcase"> <img src={moto} alt="" /></a>
+          <a href="https://yatish0401.github.io/Spotify_Song_Page/"> <img src={moto} alt="" /></a>
           <div className={style.infocard}>
-          <p>Dynamic_Moto_Showcase</p>
-              <p><a href="https://github.com/LukmanKhann/Dynamic-moto-showcase"><i class="fa-brands fa-github"></i> GitHub</a></p>
+          <p>Spotify_song_page</p>
+              <p><a href="https://yatish0401.github.io/Spotify_Song_Page/"><i class="fa-brands fa-github"></i> GitHub</a></p>
           </div>
           </div>
           <div id={style.projectdiv3} className={style.projectdiv}>
-         <a href="https://github.com/LukmanKhann/E-commerce_Website"> <img src={ecom} alt="" /></a>
+         <a href="https://yatish0401.github.io/Food_Order/"> <img src={ecom} alt="" /></a>
           <div className={style.infocard}>
-          <p>E_commerce_Website</p>
-              <p><a href="https://github.com/LukmanKhann/E-commerce_Website"><i class="fa-brands fa-github"></i> GitHub</a></p>
+          <p>Food_Order</p>
+              <p><a href="https://yatish0401.github.io/Food_Order/"><i class="fa-brands fa-github"></i> GitHub</a></p>
           </div>
           </div>
         

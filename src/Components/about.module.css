@@ -24,10 +24,19 @@ align-items: center;
 }
 #photodiv{
 height: 350px;
-width: 450px;
+width: 300px;
 background-color: rgb(23,27,28);
 margin-right: 100px;
 border-radius: 5px;
+
+}
+#photodiv>img{
+    height: 350px;
+width: 300px;
+
+/* background-position: center; */
+object-fit: cover;
+/* background-size: cover; */
 }
 #infodiv{
     height: 350px;
@@ -189,6 +198,12 @@ background-color: rgb(22,26,27);
 border-radius: 100%;
 margin-top: 50px;
 margin-left: 100px;
+}
+
+#childa1photo>img{
+    height: 120px;
+    width: 120px;
+    border-radius: 100%;
 }
 #childa1>#childa1info{
     height: 418px;
@@ -456,7 +471,7 @@ margin-left: 40px;
 /* Education Time line section */
 
 #mydiv{
-    height: 175px;
+    height: 250px;
     width: 2px;
     margin-right: 10px;
     background-color: rgb(45,45,45);
@@ -482,7 +497,7 @@ margin-left: 40px;
   margin-top: 75px;
 }
 #mainlinediv{
-    height: 300px;
+    height: 350px;
     /* width: 600px;    */
     display: flex;
     justify-content: center;
@@ -490,7 +505,7 @@ margin-left: 40px;
     
 }
 #yeardiv{
-    height: 250px;
+    height: 320px;
     width: 45%;
 }
 #collegediv{
@@ -516,7 +531,7 @@ margin-left: 40px;
     color: rgb(162,162,162);
 }
 #collegediv>#university1{
-margin-top: 51px;
+margin-top: 16px;
 color: rgba(255, 255, 255, 0.966);
 font-weight: 600;
 }

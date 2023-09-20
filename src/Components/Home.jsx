@@ -37,7 +37,7 @@ const Home = () => {
         
         <div id={style.textdiv}>
             <div id={style.innertextdiv}>
-<h1 id={style.myname}>MOHAMMAD <span id={style.lukman}>LUKMAN</span> KHAN</h1>
+<h1 id={style.myname}>Yatish <span id={style.lukman}>Singhal</span></h1>
 <h1 id={style.creativetext}>Creative <span className={`text ${style.text}`}></span></h1>
 <button className={style.getbtn} onClick={contact}>Get in Touch</button>
 

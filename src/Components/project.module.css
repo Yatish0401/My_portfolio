@@ -240,9 +240,10 @@
     width: 130px;
     margin-bottom: 70px;
     transition: transform 0.3s ease;
+    border-radius: 20px;
 }
 #projectdiv2{
-    background-color: rgb(0,181,224);
+    background-color: rgb(64, 200, 62);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -265,7 +266,7 @@
     transform: scale(1.1);
 }
 #projectdiv3{
-    background-color:rgb(167, 249, 189);
+    background-color:rgba(236, 115, 59, 0.744);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -276,6 +277,7 @@
     width: 130px;
     margin-bottom: 74px;
     transition:  transform 0.2s ease;
+    border-radius: 20px;
 }
 .projectdiv>.infocard{
     position: absolute;
