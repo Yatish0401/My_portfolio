@@ -12,7 +12,7 @@ const App = () => {
   return (
     <div>
      
-     <BrowserRouter basename="/My-Portfolio">
+     <BrowserRouter basename="/My_Portfolio">
      <CursorCircle/>
      <Nav/>
         <Routes>
